@@ -88,7 +88,7 @@ const galaxyParameters = {
 
 // Danh sách hình ảnh trái tim, kết hợp dữ liệu từ subdomain và mặc định
 const heartImages = window.dataLove2Loveloom && window.dataLove2Loveloom.data.images ? window.dataLove2Loveloom.data.images.map(img => img.url) : [
-    './assets/image/1.jpg', './assets/image/2.jpg', './assets/image/3.jpg', './assets/image/4.jpg'
+    'assets/image/1.jpg', 'assets/image/2.jpg', 'assets/image/3.jpg', 'assets/image/4.jpg'
 ];
 
 const textureLoader = new THREE.TextureLoader();
@@ -1302,3 +1302,4 @@ const container = document.getElementById('container');
 if (container) {
     container.addEventListener('touchmove', preventDefault, { passive: false });
 }
+
